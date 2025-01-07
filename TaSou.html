@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>微信公众号：TaSou</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        html, body {
+            height: 100%; /* 设置高度为100% */
+            margin: 0;
+            overflow: hidden; /* 禁止上下滑动 */
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8; /* 更温暖的浅色背景 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            text-align: center;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* 增加阴影效果 */
+            padding: 30px;
+            width: 90%;
+            max-width: 400px;
+            box-sizing: border-box;
+        }
+        h1 {
+            color: #333; /* 深灰色标题 */
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        .nav-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px 0;
+            text-decoration: none;
+            color: #00796b; /* 深青色链接 */
+            font-size: 18px;
+            padding: 12px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+            border: 1px solid transparent;
+        }
+        .nav-link:hover {
+            background-color: #004d40; /* 悬停时的深青色背景 */
+            color: white; /* 悬停时的白色文本 */
+            border-color: #00796b; /* 悬停时的边框颜色 */
+            transform: scale(1.02);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* 悬停时增加阴影 */
+        }
+        .nav-link i {
+            margin-right: 8px;
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>找资源？就上TaSou</h1>
+        <a class="nav-link" href="https://transhey.flowus.cn/" target="_blank" aria-label="访问网站1">
+            <i class="fa-regular fa-compass"></i> 上网指南
+        </a>
+        <a class="nav-link" href="https://www.example2.com" target="_blank" aria-label="访问网站2">
+            <i class="fa-brands fa-tiktok"></i> 官方抖音
+        </a>
+        <a class="nav-link" href="https://vlink.cc/Transhey" target="_blank" aria-label="访问网站3">
+            <i class="fa-solid fa-location-dot"></i> 发布中心
+        </a>
+        <a class="nav-link" href="https://www.example4.com" target="_blank" aria-label="访问网站4">
+            <i class="fa-brands fa-android"></i> 下载软件
+        </a>
+        <footer>
+            <i class="fa-solid fa-triangle-exclamation"></i> 请联网使用，以免打不开
+        </footer>
+    </div>
+</body>
+</html>
